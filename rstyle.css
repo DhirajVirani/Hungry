@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+}
+.login-img{
+	width: 100% ;
+    height:900px;
+    background-image: url(loginpage.jfif);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.navigation-container{
+    position: absolute;
+    width: 100%;
+}
+.topnav{
+    display: flex;
+    list-style: none;
+    font-size: 1.4em;
+    margin: 0;
+    color:#E78200 ;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 700px){
+    .topnav{
+    font-size: 0.9em;
+    padding: 0;
+    }
+}
+.nav-title{
+ font-weight: bold;
+ font-size: 6vh;
+}
+li{
+    padding: 20px;
+}
+
+li>a{
+    color:#E78200;
+    text-decoration: none;
+}
+
+.push{
+     margin-left: auto;
+    padding: 10px,15px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50%; ;
+}
+.topnav a:hover {
+  color: white;
+}
+
+/*Login container*/
+
+.login-container{
+	float: right;
+	width: 400px;
+	height: 500px;
+	margin: 100px;
+	padding: 10px;
+	background-color: rgba(231, 130, 0, 0.8) ;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #40392F;
+	border-width: 9px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    text-align: left;     
+}
+input{
+    width: 350px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+
+}
+
+input.defaultcheckbox{
+    width: 15px;
+    height: 15px;
+}
+
+input.signupbutton{
+    width: 100px;
+}
+.signupbutton {
+     /*background:rgba(255, 255, 255, 0.7);*/
+     color:rgba(255, 255, 255, 0.7);
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+.signupbutton:hover {
+     cursor: pointer;
+     background:lightgray;
+     color:#E78200;
+     border:1pxsolid#eee;
+     border-radius:20px;
+     box-shadow:5px5px5px#eee;
+     text-shadow:none;
+}
+
+.a_signin{
+    color: black;
+}
